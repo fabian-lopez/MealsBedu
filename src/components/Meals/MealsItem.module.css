@@ -1,0 +1,28 @@
+.meal {
+    padding:0.5rem;
+    background-color: #adf7e5;
+}
+
+.meal > .lblMeal{
+    margin-top:0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.meal > .mealNombre {
+    margin-top:0;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.meal > .mealPrecio {
+    margin-top:0;
+    font-size: 2rem;
+    font-weight: 800;
+    color:orange;
+}
+
+.img {
+    width: 100%;
+    height: 200px;
+}

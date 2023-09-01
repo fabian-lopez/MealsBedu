@@ -1,0 +1,65 @@
+
+.mealContainer {
+    margin:5rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    column-gap: .5rem;
+    border-radius: 10px;
+}
+/* .meal{
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+    padding: 1rem;
+    background-color: aquamarine;
+    border-radius: 8px;
+} */
+
+
+/* .meal-container > .lblMeal{
+    margin-top:0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.meal-container > .mealNombre {
+    margin-top:0;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.meal-container > .mealPrecio {
+    margin-top:0;
+    font-size: 2rem;
+    font-weight: 800;
+    color:orange;
+} */
+
+@media (max-width: 768px){
+    
+    .mealContainer{
+        margin-top:.2rem;
+        padding: 1rem;        
+        background-color: aquamarine;
+    }
+}
+
+@media (max-width: 450px){
+    
+    .mealContainer{
+        margin-top:.2rem;
+        padding: .5rem;
+        background-color: aquamarine;
+    }
+}
+
+@media (max-width: 375px){
+    
+    .mealContainer{
+        margin-top:0.2rem;
+        padding: .2rem;
+        background-color: aquamarine;
+    }
+}
