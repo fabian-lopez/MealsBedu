@@ -1,7 +1,12 @@
+import { useContext } from 'react';
 import Card from '../UI/Card';
 import styles from './GlobalCar.module.css';
+import CartContext from '../Contexts/CartContext';
 
 function GlobalCar(props){
+
+    const {totalMeals} = useContext(CartContext);
+
     return(
         
         <div className={styles.car}>
@@ -10,7 +15,7 @@ function GlobalCar(props){
             </div>
             <div className={styles.cantidad}>
                 <div className={styles.labelCantidad}>
-                    <label>{props.cantidadArticulos || 0}</label>
+                    <label>{totalMeals || 0}</label>
                 </div>
             </div>
         </div>

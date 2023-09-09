@@ -1,0 +1,82 @@
+.entryButton {
+    border-radius: .9rem;
+    font-size: 1rem;
+    color: #000;
+    background-color: greenyellow;
+}
+
+    .entryButton:hover {
+        font-size: 1rem;
+        color: azure;
+        background-color: #035726;
+        cursor: pointer;
+    }
+
+    .entryButton:focus{
+        border-radius: .9rem;
+        font-size: 1rem;
+        color: azure;
+        box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+    }
+
+.acceptButton {
+    border-radius: .9rem;
+    font-size: 1rem;
+    color: #000;
+    background-color: #04edfd;
+}
+
+    .acceptButton:hover {
+        font-size: 1rem;
+        color: azure;
+        background-color: #053e42;
+        cursor: pointer;
+    }
+
+    .acceptButton:focus{
+        border-radius: .9rem;
+        font-size: 1rem;
+        color: #011347;
+        box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+    }
+
+.cancelButton {
+    border-radius: .9rem;
+    font-size: 1rem;
+    color: #4c424e;
+    background-color: #fff;
+}
+
+    .cancelButton:hover {
+        font-size: 1rem;
+        color: #fff;
+        background-color: #2d0241;
+        cursor: pointer;
+    }
+
+    .cancelButton:focus{
+        border-radius: .9rem;
+        font-size: 1rem;
+        color: azure;
+        box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+    }
+
+.dangerButton {
+    border-radius: .9rem;
+    font-size: 1rem;
+    color: #929292;
+    background-color: red;
+}
+
+    .dangerButton:hover {
+        font-size: 1rem;
+        color: rgb(190, 171, 171);
+        background-color: #6b1c04;
+        cursor: pointer;
+    }
+
+    .dangerButton:focus{
+        border-radius: .9rem;
+        font-size: 1rem;
+        box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+    }

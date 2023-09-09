@@ -1,0 +1,30 @@
+.mealFormContainer {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+.cantidad {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .cantidad > .label {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .cantidad > .qty {
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+.actionMeal {
+    width: 100%;
+}

@@ -8,6 +8,7 @@ function Meals(props){
             props.meals.map((meal) => (
                 <MealsItem
                     key={meal.id}
+                    id={meal.id}
                     nombre={meal.nombre}
                     precio={meal.precio}
                     imagen={meal.imagen}
